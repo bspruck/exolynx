@@ -10,10 +10,10 @@ Pack files with the following command
 Unpack from cartridge file:
 
 ```
-ReadAndUnpack::
-; Load File A to DestPtr
-;     lda filenumber
-;     jsr OpenFile
+ReadAndUnpackExo::
+; Load File FILENUMBER to DESTINATIONADDRESS
+    lda #FILENUMBER
+    jsr OpenFile
     MOVEI DESTINATIONADDRESS, zp_dest_lo
     jsr decrunch
     rts
