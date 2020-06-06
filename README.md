@@ -9,7 +9,7 @@ Pack files with the following command
 
 Unpack from cartridge file:
 
-`
+```
 ReadAndUnpack::
 ; Load File A to DestPtr
 ;     lda filenumber
@@ -27,6 +27,4 @@ get_crunched_byte:
     plx
     plp
     rts
-`
-
-
+```
