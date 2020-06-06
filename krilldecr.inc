@@ -1,5 +1,8 @@
 ; This source code is altered and is not the original version found on
 ; the Exomizer homepage.
+
+; It contains modifications to work as stream unpacker on the atari lynx
+
 ; It contains modifications made by Krill/Plush to depack a packed file
 ; crunched forward and to work with his loader.
 
